@@ -20,4 +20,5 @@ client.on('message', msg => {
     msg.reply('mau OwO);
   }
 });
+
 client.login(process.env.BOT_TOKEN);
