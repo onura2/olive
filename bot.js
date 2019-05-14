@@ -9,16 +9,18 @@ client.on('message', msg => {
   if (msg.content === 'miaw') {
     msg.reply('miaw miaw miaw);
   }
+              
 });
 client.on('message', msg => {
   if (msg.content === 'felix') {
     msg.reply('mau OwO);
   }
+              
 });
 client.on('message', msg => {
   if (msg.content === ' Zeytin felix istermisin') {
     msg.reply('mau OwO);
-  }
+  }         
 });
 
 client.login(process.env.BOT_TOKEN);
